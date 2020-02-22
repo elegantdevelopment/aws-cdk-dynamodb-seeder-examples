@@ -1,0 +1,70 @@
+{
+  "name": "aws-cdk-dynamodb-seeder-examples",
+  "version": "1.2.1",
+  "description": "Example usage of aws-cdk-dynamodb-seeder",
+  "scripts": {
+    "build": "tsc",
+    "check": "npm test && npm run lint",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elegantdevelopment/aws-cdk-dynamodb-seeder-examples.git"
+  },
+  "keywords": [
+    "aws-cdk-dynamodb-seeder",
+    "examples",
+    "aws",
+    "cdk",
+    "dynamodb",
+    "seed",
+    "seeder"
+  ],
+  "author": "Justin Taylor <jtaylor@elegantdevelopment.co.uk> (https://www.linkedin.com/in/jsdtaylor)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/elegantdevelopment/aws-cdk-dynamodb-seeder-examples/issues"
+  },
+  "homepage": "https://github.com/elegantdevelopment/aws-cdk-dynamodb-seeder-examples#readme",
+  "dependencies": {
+    "@aws-cdk/aws-dynamodb": "^1.25.0",
+    "@aws-cdk/core": "^1.25.0",
+    "aws-cdk-dynamodb-seeder": "^1.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1",
+    "ts-jest": "^25.2.1",
+    "tslint": "^6.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.7.5"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/*.ts",
+      "!node_modules/**"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "globals": {
+      "ts-jest": {
+        "diagnostics": {
+          "warnOnly": true
+        }
+      },
+      "testEnvironment": "node"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+# npm
+node_modules/
+.npm
+*.tgz
+lib/
+
+# code coverage
+coverage/
+
+# cdk files
+cdk.out
