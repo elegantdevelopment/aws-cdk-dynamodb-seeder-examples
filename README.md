@@ -4,7 +4,7 @@ Example usage of aws-cdk-dynamodb-seeder
 
 ## How do I use it
 
-Install the dependencies your favourite package manager:
+Install the dependencies using your favourite package manager:
 
 ```sh
 yarn
