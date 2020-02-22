@@ -1,6 +1,6 @@
 # aws-cdk-dynamodb-seeder-examples
 
-Example usage of aws-cdk-dynamodb-seeder
+Example usage of [aws-cdk-dynamodb-seeder](https://github.com/elegantdevelopment/aws-cdk-dynamodb-seeder)
 
 ## How do I use it
 
