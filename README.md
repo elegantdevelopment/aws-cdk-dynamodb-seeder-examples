@@ -18,7 +18,9 @@ This command will deploy the seeder stack (and the table stack if not already de
 cdk [--profile profile] deploy seeder-stack --require-approval never
 ```
 
-### Tearing down the seed
+### Tearing down the seed
+
+To teardown (remove) seed data from the table:
 
 ```sh
 cdk [--profile profile] destroy seeder-stack --force
