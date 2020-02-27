@@ -4,8 +4,8 @@ Example usage of [aws-cdk-dynamodb-seeder](https://github.com/elegantdevelopment
 
 ## Compatibility
 
-![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/elegantdevelopment/aws-cdk-dynamodb-seeder-examples/aws-cdk-dynamodb-seeder)
-![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/elegantdevelopment/aws-cdk-dynamodb-seeder-examples/@aws-cdk/core)
+[![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/elegantdevelopment/aws-cdk-dynamodb-seeder-examples/aws-cdk-dynamodb-seeder)](https://github.com/elegantdevelopment/aws-cdk-dynamodb-seeder)
+[![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/elegantdevelopment/aws-cdk-dynamodb-seeder-examples/@aws-cdk/core)](https://github.com/aws/aws-cdk)
 
 ## How do I use it
 
