@@ -2,6 +2,11 @@
 
 Example usage of [aws-cdk-dynamodb-seeder](https://github.com/elegantdevelopment/aws-cdk-dynamodb-seeder)
 
+## Compatibility
+
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/elegantdevelopment/aws-cdk-dynamodb-seeder-examples/aws-cdk-dynamodb-seeder)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/elegantdevelopment/aws-cdk-dynamodb-seeder-examples/@aws-cdk/core)
+
 ## How do I use it
 
 Install the dependencies using your favourite package manager:
