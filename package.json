@@ -32,7 +32,7 @@
   "dependencies": {
     "@aws-cdk/aws-dynamodb": "^1.26.0",
     "@aws-cdk/core": "^1.26.0",
-    "aws-cdk-dynamodb-seeder": "^1.26.0"
+    "aws-cdk-dynamodb-seeder": "^1.26.1"
   },
   "devDependencies": {
     "prettier": "^1.19.1",
