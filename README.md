@@ -20,7 +20,7 @@ yarn
 This command will deploy the seeder stack (and the table stack if not already deployed):
 
 ```sh
-cdk [--profile profile] deploy seeder-stack --require-approval never
+npm run cdk -- [--profile profile] deploy seeder-stack --require-approval never
 ```
 
 ### Tearing down the seed
@@ -28,5 +28,5 @@ cdk [--profile profile] deploy seeder-stack --require-approval never
 To teardown (remove) seed data from the table:
 
 ```sh
-cdk [--profile profile] destroy seeder-stack --force
+npm run cdk -- cdk [--profile profile] destroy seeder-stack --force
 ```
