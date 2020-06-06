@@ -32,7 +32,7 @@
   "dependencies": {
     "@aws-cdk/aws-dynamodb": "^1.44.0",
     "@aws-cdk/core": "^1.44.0",
-    "aws-cdk-dynamodb-seeder": "github:elegantdevelopment/aws-cdk-dynamodb-seeder#d587068016b22c312017a78ed3915cbfd5b58ad3",
+    "aws-cdk-dynamodb-seeder": "^1.44.0",
     "jest": "^25.5.4",
     "minimist": ">=1.2.3"
   },
