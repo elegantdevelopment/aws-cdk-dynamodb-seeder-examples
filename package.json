@@ -34,7 +34,7 @@
     "@aws-cdk/core": "^1.44.0",
     "aws-cdk-dynamodb-seeder": "^1.44.0",
     "jest": "^25.5.4",
-    "minimist": ">=1.2.3"
+    "minimist": ">=1.2.6"
   },
   "devDependencies": {
     "@aws-cdk/assert": "^1.44.0",
